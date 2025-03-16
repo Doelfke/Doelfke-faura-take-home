@@ -1,6 +1,6 @@
 import { api, Query } from "encore.dev/api";
-import { moviesService } from "./movies-service";
-import { MoviesSearchDto } from "./movies-search.dto";
+import { moviesService } from "./movies.service";
+import { MoviesSearchDto } from "./movies.search.dto";
 
 interface FindMovieQueryParams {
   title: Query<string>;

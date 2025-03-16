@@ -1,5 +1,5 @@
-import { tmdbService } from "../tmdb/tmdb-service";
-import { MoviesSearchDto } from "./movies-search.dto";
+import { tmdbService } from "../tmdb/tmdb.service";
+import { MoviesSearchDto } from "./movies.search.dto";
 
 const search = async (title: string) => {
   const searchResults = await tmdbService.search(title);
